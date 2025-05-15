@@ -23,6 +23,7 @@ app.add_middleware(
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
+OPENAI_API_KEY = "YOUR_API_KEY"
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
 
 @app.post("/process/")
